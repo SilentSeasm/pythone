@@ -1,0 +1,2 @@
+# pythone
+esercizi_python
