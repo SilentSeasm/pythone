@@ -1,7 +1,5 @@
-valore1 = input("Inserisci il primo valore: ")
-valore2 = input("Inserisci il secondo valore: ")
-v1 = int(valore1)
-v2 = int(valore2)
-print("La somma è:", v1 + v2)
+valore1 = int(input("Inserisci il primo valore: "))         #input restituisce sempre str
+valore2 = int(input("Inserisci il secondo valore: "))
+print("La somma è:", valore1 + valore2)
 
 
