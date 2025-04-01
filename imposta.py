@@ -1,5 +1,5 @@
 reddito = input("Inserisci il tuo reddito: ")
-reddito = int(reddito)
+reddito = float(reddito)
 
 if reddito <= 28000:
     imposta = (reddito / 100) * 23
