@@ -14,5 +14,5 @@ def calcolo_numeri_primi(numero):
 
 primi = calcolo_numeri_primi(numero)
 conta = len(primi)
-print(conta, "numeri primi: ")
+print(conta, "numeri primi: " + "fino a", numero)
 print(primi)
