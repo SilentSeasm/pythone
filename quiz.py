@@ -18,7 +18,8 @@ class Studente:
     def getAverageScore(self):  
         if self.quiz == 0:
             return 0 
-        return self.score / self.quiz
+        else:
+            return self.score / self.quiz
 
 
 risultati = Studente("Mario", "Rossi", 10, 5)
