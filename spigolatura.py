@@ -10,7 +10,7 @@ def scraping(tag, indentazione):
 
 
 url = 'https://lipsum.com'
-response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html.parser')
+risposta = requests.get(url)
+soup = BeautifulSoup(risposta.text, 'html.parser')
 scraping(soup, '')
 
