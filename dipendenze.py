@@ -10,7 +10,7 @@ parsed = BeautifulSoup(risposta.text, 'html.parser')
 link_tags = parsed.find_all('a')
 
 if risposta.status_code == 200:
-    print("Link trovati nella pagina:")
+    print("Link funzionanti trovati nella pagina:")
     for tag in link_tags:
         if 'href' in tag.attrs: 
             print(tag['href'])
