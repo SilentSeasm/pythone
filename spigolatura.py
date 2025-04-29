@@ -1,3 +1,4 @@
+#solo tag
 import requests
 from bs4 import BeautifulSoup
 import bs4 
@@ -14,3 +15,14 @@ risposta = requests.get(url)
 soup = BeautifulSoup(risposta.text, 'html.parser')
 scraping(soup, '')
 
+#tutta la pagina
+import requests
+from bs4 import BeautifulSoup
+
+url = 'https://lipsum.com'
+
+risposta = requests.get(url)
+
+soup = BeautifulSoup(risposta.text, 'html.parser')
+
+print(soup.prettify())  
